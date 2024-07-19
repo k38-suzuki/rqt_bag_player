@@ -1,0 +1,17 @@
+<library path="lib/librqt_bag_player">
+  <class name="rqt_bag_player/MyPlugin" type="rqt_bag_player::MyPlugin" base_class_type="rqt_gui_cpp::Plugin">
+    <description>
+      A C++ GUI plugin for playing and recording topics.
+    </description>
+    <qtgui>
+      <group>
+        <label>Logging</label>
+        <icon type="theme">folder</icon>
+        <statustip>Plugins related to logging.</statustip>
+      </group>
+      <label>Bag Player</label>
+      <icon type="theme">multimedia-player</icon>
+      <statustip>A C++ GUI plugin for playing and recording infomation.</statustip>
+    </qtgui>
+  </class>
+</library>
